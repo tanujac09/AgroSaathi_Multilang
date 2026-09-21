@@ -1,0 +1,12 @@
+{
+  "name": "agrosaathi",
+  "version": "1.0.0",
+  "description": "AgroSaathi — RAG-based AI crop advisory chatbot (1M1B x IBM SkillsBuild AI for Sustainability Internship)",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

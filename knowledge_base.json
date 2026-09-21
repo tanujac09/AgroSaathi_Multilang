@@ -1,0 +1,146 @@
+[
+  {
+    "crop": "Rice (Paddy)",
+    "season": "Kharif — nursery in June, transplant July, harvest Oct-Nov.",
+    "soil": "Clayey loam that holds standing water; pH 5.5-7.0.",
+    "irrigation": "Keep 2-5cm standing water through tillering; drain 10 days before harvest. Alternate wetting-and-drying (AWD) can cut water use by ~25% with no yield loss.",
+    "pest": "Stem borer and leaf folder are common. Use pheromone traps and encourage natural predators before chemical sprays; remove and destroy affected tillers.",
+    "fertilizer": "Split nitrogen across basal, tillering, and panicle-initiation stages; get soil tested locally for exact NPK ratio.",
+    "sustain": "AWD irrigation and SRI reduce both water use and methane emissions from paddies."
+  },
+  {
+    "crop": "Wheat",
+    "season": "Rabi — sow late Oct to mid-Nov, harvest March-April.",
+    "soil": "Well-drained loam; pH 6.0-7.5.",
+    "irrigation": "Critical stages: crown-root initiation (20-25 days after sowing), tillering, grain-filling.",
+    "pest": "Aphids and yellow rust in humid, cool weather. Early sowing and resistant varieties reduce rust pressure.",
+    "fertilizer": "Split nitrogen between basal and first irrigation; phosphorus/potash usually fully basal — confirm with soil-test recommendation.",
+    "sustain": "Zero-tillage sowing after paddy cuts fuel use and preserves soil moisture and organic matter."
+  },
+  {
+    "crop": "Cotton",
+    "season": "Kharif — sow May-June or with monsoon onset; harvest Oct-Jan in stages.",
+    "soil": "Deep black cotton soil (regur); pH 6.0-8.0.",
+    "irrigation": "Drip irrigation with mulching cuts water use significantly versus flood irrigation.",
+    "pest": "Pink bollworm and whitefly are major threats. Pheromone traps, timely sowing, destroying crop residue after harvest, and avoiding excess nitrogen help.",
+    "fertilizer": "Nutrient-hungry — staggered nitrogen plus adequate potash for boll development; soil test guides exact schedule.",
+    "sustain": "Intercropping with pulses (e.g. moong) improves soil nitrogen and gives a second income stream."
+  },
+  {
+    "crop": "Sugarcane",
+    "season": "Planted Oct-Nov (adsali) or Feb-March (suru); 10-18 month duration.",
+    "soil": "Deep, well-drained loam to clay-loam; pH 6.5-7.5.",
+    "irrigation": "Very water-intensive — drip irrigation cuts water use ~30-40% versus furrow irrigation while improving yield.",
+    "pest": "Early shoot borer and whitefly common; trash mulching suppresses weeds and conserves moisture.",
+    "fertilizer": "Heavy feeder of nitrogen and potash; split doses at planting, tillering, and grand-growth stage.",
+    "sustain": "Trash mulching instead of burning returns organic matter to soil and avoids stubble-burning air pollution."
+  },
+  {
+    "crop": "Soybean",
+    "season": "Kharif — sow with monsoon onset (June-July), harvest Sept-Oct.",
+    "soil": "Well-drained loam, low waterlogging tolerance; pH 6.0-7.5.",
+    "irrigation": "Mostly rainfed; protective irrigation at flowering and pod-filling if there's a dry spell.",
+    "pest": "Girdle beetle and stem fly attack young plants; timely sowing and seed treatment reduce early infestation.",
+    "fertilizer": "Legume — fixes some nitrogen; Rhizobium seed inoculation reduces nitrogen fertilizer needed.",
+    "sustain": "Good rotation partner after cotton or sugarcane, improving soil nitrogen for the next crop."
+  },
+  {
+    "crop": "Tur (Pigeon Pea)",
+    "season": "Kharif — sow June-July, harvest Dec-Jan (long duration).",
+    "soil": "Tolerates marginal land; pH 6.0-7.5.",
+    "irrigation": "Deep-rooted, largely rainfed; one irrigation at pod-formation stage helps in dry seasons.",
+    "pest": "Pod borer (Helicoverpa) is key — pheromone traps and bird perches before spraying.",
+    "fertilizer": "Low requirement as a legume; light basal phosphorus is usually enough.",
+    "sustain": "Deep roots break soil hardpan; leaf litter adds organic matter to degraded or marginal soils."
+  },
+  {
+    "crop": "Onion",
+    "season": "Rabi (main), also Kharif and late-Kharif; ~90-120 days to harvest.",
+    "soil": "Well-drained sandy loam; pH 6.0-7.0; sensitive to waterlogging.",
+    "irrigation": "Light, frequent irrigation — drip with mulch keeps bulb rot low and improves bulb size.",
+    "pest": "Thrips dominant, especially hot dry weather; blue sticky traps and timely irrigation help.",
+    "fertilizer": "Needs adequate sulphur and potash for bulb quality, alongside split nitrogen doses.",
+    "sustain": "Drip plus mulch cuts water use and reduces purple blotch disease pressure from overhead irrigation."
+  },
+  {
+    "crop": "Tomato",
+    "season": "Grown nearly year-round with irrigation; ~25-day nursery, 60-90 days to first harvest.",
+    "soil": "Well-drained loam rich in organic matter; pH 6.0-6.8.",
+    "irrigation": "Drip with staking/mulching reduces fruit cracking and soil-borne disease.",
+    "pest": "Fruit borer and whitefly (spreads leaf-curl virus); yellow sticky traps, staking for airflow, remove infected plants early.",
+    "fertilizer": "Calcium deficiency causes blossom-end rot — ensure adequate calcium with balanced NPK.",
+    "sustain": "Staking and mulching reduce water use and fungicide need by improving airflow."
+  },
+  {
+    "crop": "Chilli",
+    "season": "Kharif and Rabi both possible with irrigation; harvest starts ~75-90 days after transplant.",
+    "soil": "Well-drained sandy loam; pH 6.0-7.0.",
+    "irrigation": "Drip irrigation reduces fruit-rot and root-rot risk from waterlogged flood irrigation.",
+    "pest": "Thrips and mites cause leaf curl; reflective mulch and removing affected leaves help.",
+    "fertilizer": "Needs steady potash through fruiting for pungency and shelf life.",
+    "sustain": "Intercropping with marigold can trap certain pest species away from the main crop."
+  },
+  {
+    "crop": "Groundnut",
+    "season": "Kharif (June-July) and summer crop under irrigation; ~100-130 days.",
+    "soil": "Well-drained sandy loam essential for pod development; pH 6.0-6.5.",
+    "irrigation": "Critical stages: flowering, pegging, pod development — moisture stress at pegging sharply cuts yield.",
+    "pest": "Leaf miner and white grub common; deep summer ploughing exposes grubs to predators and sun.",
+    "fertilizer": "Legume — fixes much of its own nitrogen; gypsum at flowering improves pod-filling.",
+    "sustain": "Residue is good fodder; nitrogen-fixing improves soil for the following cereal crop."
+  },
+  {
+    "crop": "Maize",
+    "season": "Kharif (June) or Rabi/spring with irrigation; ~90-110 days.",
+    "soil": "Well-drained loam; pH 5.5-7.5.",
+    "irrigation": "Most water-sensitive at tasseling/silking — shortfall here has the largest yield impact.",
+    "pest": "Fall armyworm now major across Maharashtra; scout weekly for window-pane leaf damage, act promptly.",
+    "fertilizer": "Heavy nitrogen feeder — split across basal, knee-high, and tasseling stages.",
+    "sustain": "Maize-legume intercropping improves nitrogen use and gives ground cover against soil erosion."
+  },
+  {
+    "crop": "Bajra (Pearl Millet)",
+    "season": "Kharif, sown with monsoon onset; ~75-90 days.",
+    "soil": "Tolerates poor, sandy soils; pH 6.0-8.0.",
+    "irrigation": "Highly drought-tolerant; usually grown rainfed, good for water-scarce regions.",
+    "pest": "Downy mildew in wet years and shoot fly early; resistant varieties are most effective.",
+    "fertilizer": "Low input crop; light basal dose generally sufficient.",
+    "sustain": "Highly climate-resilient staple — good hedge against erratic monsoons."
+  },
+  {
+    "crop": "Jowar (Sorghum)",
+    "season": "Kharif and Rabi both grown in Maharashtra; ~100-120 days.",
+    "soil": "Wide tolerance including moderately saline soils; pH 6.0-8.5.",
+    "irrigation": "Drought-tolerant, deep root system; Rabi jowar relies mostly on residual soil moisture.",
+    "pest": "Shoot fly and stem borer in seedling stage; timely sowing after first good rain reduces risk.",
+    "fertilizer": "Moderate nitrogen need, split between basal and post-thinning stage.",
+    "sustain": "Traditional low-water staple — supports nutrition security and climate resilience."
+  },
+  {
+    "crop": "Gram (Chana)",
+    "season": "Rabi — sown Oct-Nov, harvested Feb-March.",
+    "soil": "Well-drained loam to clay-loam; pH 6.0-7.5; poor in waterlogged fields.",
+    "irrigation": "Largely rainfed on residual moisture; one light irrigation at pod-development stage lifts yield.",
+    "pest": "Pod borer (Helicoverpa) key pest — bird perches and pheromone traps; avoid spraying during flowering to protect pollinators.",
+    "fertilizer": "Legume — needs little nitrogen; light phosphorus basal dose plus Rhizobium seed treatment.",
+    "sustain": "Excellent rotation crop after Kharif cotton or soybean — restores soil nitrogen cheaply."
+  },
+  {
+    "crop": "Grapes",
+    "season": "Pruned twice a year (April/October); harvest ~90-120 days after fruit pruning.",
+    "soil": "Well-drained, deep soil; pH 6.5-7.5; poor drainage causes root rot.",
+    "irrigation": "Drip near-universal in Maharashtra's grape belts; deficit irrigation before harvest improves sugar content.",
+    "pest": "Downy mildew in humid weather and thrips; canopy management for airflow reduces fungal pressure.",
+    "fertilizer": "Needs balanced micronutrients (zinc, boron) alongside NPK — petiole analysis used commercially.",
+    "sustain": "Drip irrigation plus canopy management cuts water use and fungicide frequency."
+  },
+  {
+    "crop": "Pomegranate",
+    "season": "Can flower up to three times a year (Mrig/Hasta/Ambe bahar); ~150-180 days fruit development.",
+    "soil": "Tolerates light, well-drained, even moderately saline soils; pH 6.5-7.5.",
+    "irrigation": "Drip with a planned dry period before flower induction ('bahar treatment') is standard practice.",
+    "pest": "Bacterial blight and fruit borer biggest threats; orchard sanitation is most effective non-chemical control.",
+    "fertilizer": "Organic manure plus balanced NPK through drip fertigation is common commercial approach.",
+    "sustain": "Suited to drought-prone, marginal land — climate-resilient option where water-hungry crops struggle."
+  }
+]
