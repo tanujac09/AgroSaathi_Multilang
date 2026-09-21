@@ -30,13 +30,18 @@ module.exports = async (req, res) => {
     }
 
     const audioBuffer = Buffer.from(audio, 'base64');
-    const ext = (mimeType && mimeType.includes('wav')) ? 'wav' : 'webm';
+    // MediaRecorder gives a mimeType like "audio/webm;codecs=opus" — strip the
+    // codec parameter for the multipart part; Sarvam auto-detects the codec
+    // from the file itself and a stray ";codecs=..." on the Content-Type of
+    // the form part has caused rejections for some browsers/recorders.
+    const baseMime = (mimeType || 'audio/webm').split(';')[0].trim();
+    const ext = baseMime.includes('wav') ? 'wav' : (baseMime.includes('ogg') ? 'ogg' : 'webm');
 
     // Build a multipart/form-data request for Sarvam using the platform's
     // native FormData/Blob (available in Node 18+ on Vercel) — fetch sets
     // the correct boundary header automatically.
     const form = new FormData();
-    form.append('file', new Blob([audioBuffer], { type: mimeType || 'audio/webm' }), `recording.${ext}`);
+    form.append('file', new Blob([audioBuffer], { type: baseMime }), `recording.${ext}`);
     form.append('model', 'saarika:v2.5');
     form.append('language_code', 'unknown'); // auto-detect the farmer's spoken language
 
@@ -48,7 +53,15 @@ module.exports = async (req, res) => {
 
     if (!resp.ok) {
       const errText = await resp.text();
-      throw new Error(`Sarvam STT error ${resp.status}: ${errText}`);
+      // Log full detail server-side (visible in Vercel's Function Logs) and
+      // also return a trimmed version to the client so the browser console
+      // shows the real cause instead of a bare 500.
+      console.error(`Sarvam STT error ${resp.status}:`, errText);
+      res.status(502).json({
+        error: `Sarvam STT error ${resp.status}`,
+        detail: errText.slice(0, 500)
+      });
+      return;
     }
 
     const data = await resp.json();
