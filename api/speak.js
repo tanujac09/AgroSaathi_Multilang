@@ -5,10 +5,10 @@
 // plays directly — nothing is written to disk.
 
 const SPEAKER_BY_LANG = {
-  'en-IN': 'anushka',
-  'hi-IN': 'anushka',
-  'mr-IN': 'anushka'
-  // Bulbul's default voice "anushka" works across all supported Indian
+  'en-IN': 'neha',
+  'hi-IN': 'neha',
+  'mr-IN': 'neha'
+  // Bulbul's default voice "neha" works across all supported Indian
   // languages; swap per-language if you prefer a different voice/gender.
 };
 
@@ -45,7 +45,7 @@ module.exports = async (req, res) => {
         text: clipped,
         model: 'bulbul:v3',
         target_language_code: targetLang,
-        speaker: SPEAKER_BY_LANG[targetLang] || 'anushka'
+        speaker: SPEAKER_BY_LANG[targetLang] || 'neha'
       })
     });
 
