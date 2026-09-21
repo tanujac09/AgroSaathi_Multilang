@@ -285,7 +285,7 @@ async function handleRecordedAudio(blob) {
       body: JSON.stringify({ audio: base64, mimeType: blob.type })
     });
     const data = await res.json();
-    if (!res.ok) throw new Error(data.error || 'Transcription failed');
+    if (!res.ok) throw new Error(data.detail || data.error || 'Transcription failed');
     if (!data.transcript || !data.transcript.trim()) throw new Error('empty transcript');
 
     // Auto-detected language becomes the active language for the UI + reply.
@@ -294,6 +294,7 @@ async function handleRecordedAudio(blob) {
     micStatus.textContent = '';
     handleSend(data.transcript.trim());
   } catch (err) {
+    console.error('Transcription error:', err.message); // check the browser console for the real cause
     micStatus.classList.add('error');
     micStatus.textContent = t().sttError;
   }
